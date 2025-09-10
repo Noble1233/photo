@@ -40,7 +40,7 @@ nav a {
 
 
 .hero {
-  background: url('images/camera-bg.jpg') center/cover no-repeat;
+  background: url('camera-bg.png') center/cover no-repeat;
   color: white;
   padding: 4rem 2rem;
   text-align: center;
@@ -248,4 +248,5 @@ section {
   .hero p {
     font-size: 1rem;
   }
+
 }
