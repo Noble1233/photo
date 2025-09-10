@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhotoWorld</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>PhotoWorld</h1>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#videos">Videos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Capturing Moments, Creating Memories</h2>
+    <p>Photography is the story we fail to put into words.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="grid">
+      <img src="photo 1.jpg" alt="Nature" class="responsive-img">
+      <img src="photo 2.jpg" alt="Portrait" class="responsive-img">
+      <img src="photo 3.jpg" alt="City" class="responsive-img">
+      <img src="photo 4.jpg" alt="Wildlife" class="responsive-img">
+    </div>
+  </section>
+
+  <section id="videos">
+    <h2>Photography in Action</h2>
+    <div class="grid">
+      <video controls class="responsive-video">
+        <source src="video 1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls class="responsive-video">
+        <source src="video 2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section class="appointment">
+  <h2>Book your Appointment</h2>
+  <form action="#" method="post" class="form-box">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <input type="date" name="date" required>
+    <input type="time" name="time" required>
+    <textarea name="message" placeholder="Additional Message"></textarea>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</section>
+
+<section class="contact">
+            <div class="contact-container">
+                <h2>Contact Us</h2>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Igbo etche, River State</p>
+                    </div>
+                     <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+234 22327745432</p>
+                    </div>
+                     <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>john35@gmail.com</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" name="name" placeholder="Your name" required>
+                     <input type="text" name="email" placeholder="Your email" required>
+                      <textarea name="text" name="massage" placeholder="Your massage" required></textarea>
+                      <button type="Submit">Send Massage</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-content">
+                
+                <nav class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Video</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Contact</a>
+                </nav>
+
+                <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+            </div>
+            <p class="footer-text">&copy; 2025 Mbanta Chidera. All right reserved</p>
+        </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
