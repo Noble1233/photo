@@ -237,6 +237,17 @@ section {
     display: flex;
   }
 
+  .contact-container{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-item{
+    width:100%;
+    max-width: 350px;
+    margin: auto;
+  }
+
   .hamburger {
     display: block;
   }
@@ -248,5 +259,4 @@ section {
   .hero p {
     font-size: 1rem;
   }
-
 }
